@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-PH">
+<head>
+<title>Photo-Gallery</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Photo-Gallery">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <meta name="author" content="Naodaddy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- css links-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+<!-- Icons link-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+
+<body>
+<header>
+    <div class="nav-bar">
+        <a href="#" class="logo"><i class="uil uil-shutter"></i>Lenses</a>
+        <div class="navigation">
+            <div class="nav-items">
+                <i class="uil uil-times nav-close-btn"></i>
+                <a href="landing.html"><i class="uil uil-home"></i> Home</a>
+                <a href="gallery.html"><i class="uil uil-film"></i></i> Gallery</a>
+                <a href="portfolio.html"><i class="uil uil-images"></i></i> Portfolio</a>
+                
+                <a href="aboutus.html"><i class="uil uil-book-reader"></i></i> About Us</a>
+            </div>
+        </div>
+        <i class="uil uil-apps nav-menu-btn"></i>
+    </div>
+</header>
+<section>
+    <div class="swiper bg-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/wed.jpg" alt="">
+                <div class="text-content">
+                    <h2 class="title">Wedding <span> Photoshoot</span></h2>
+                    <p>Make Your Wedding a Wonderful Story </p>
+                    <button class="read-btn">Click Here <i class="uil uil-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper-slide dark-layer">
+                <img src="images/de.jpg" alt="">
+                <div class="text-content">
+                    <h2 class="title">Pre-debut <span> Photoshoot</span></h2>
+                    <p> Taking the best shoots of our clients of their new phase in life.  </p>
+                    <button class="read-btn">Click Here <i class="uil uil-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper-slide dark-layer">
+                <img src="images/mat.jpg" alt="">
+                <div class="text-content">
+                    <h2 class="title">Maternity <span>Photoshoot</span></h2>
+                    <p> Capturing with us your journey as a Mother. </p>
+                    <button class="read-btn">Click Here <i class="uil uil-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/food.jpg" alt="">
+                <div class="text-content">
+                    <h2 class="title">Food <span>Photoshoot</span></h2>
+                    <p> Capturing enchance food photography to show the food delicacies. </p>
+                    <button class="read-btn">Click Here<i class="uil uil-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg-slider-thumbs">
+        <div class="swiper-wrapper thumbs-container">
+            <img src="images/wed.jpg" class="swiper-slide" alt="">
+            <img src="images/de.jpg" class="swiper-slide" alt="">
+            <img src="images/mat.jpg" class="swiper-slide" alt="">
+            <img src="images/food.jpg" class="swiper-slide" alt="">
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+    
+
+<!-- JS link-->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
